@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 85%;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.background__nav{
+    background-color: #2e323f;
+}
+
+.container__nav-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav ul{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.nav li{
+    list-style: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    padding-top: 0.3em;
+   
+}
+
+.nav a{
+    text-decoration: none;
+    color: #ffffff;
+    margin-right: 2em;
+}
+
+.logo{
+    padding-top: 1em;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.btn-primary {
+    color: #ffffff;
+    background-color: #a59678;
+    border-radius: 20px;
+}
+
+.text__bottom-nav{
+    display: flex;
+    align-items: center;
+    padding-top: 2em;
+    padding-bottom: 3em;
+}
+
+.text__bottom-nav-left h1{
+    font-size: 90px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    color: white;
+    line-height: 98px;
+    
+}
+.background__bottom-nav{
+    background-color: #3b4060;
+    
+}
+
+.text__bottom-nav-right{
+    color: #ffffff;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    
+}
+
+.backgrounds-items{
+    background-color: #f7f7f7;
+    
+}
+
+.items{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+
+.card{
+    padding: 4em;
+}
+
+.card h2{
+    color: #a59678;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.card p{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.main-center{
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-main img{
+    width: 90%;
+}
+
+.text-p{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+    width: 95%;
+}
+
+.text-right{
+    text-align: center;
+    
+}
+
+.card-right{
+    border: 1px solid black;
+    margin: 1em;
+    background-color: #3b4060;
+
+}
+
+.card-right h2{
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.card-right p{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    color: #ffffff;
+}
+.title-main h1{
+    color: #a59678;
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.background-footer{
+    background-color: #3b4060;
+}
+
+.title-footer {
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 1em;
+}
+
+.container-footer{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 2em;
+}
+.text-footer p{
+    
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.text-footer h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 21px;
+    font-weight: bold; 
+    color: #a59678; 
+}
+.text-footer a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+.text-footer li{
+    list-style: none;
+}
+
+@media (max-width: 1000px){
+    .text__bottom-nav{
+        flex-direction: column;
+    }
+    .card{
+        padding: 0;
+        text-align: left;
+    }
+    .items{
+        flex-direction: column;
+    }
+    .main-center{
+        flex-direction: column;
+    }
+    .img-main img{
+        width: 100%;
+    }
+    .text-p{
+        width: 100%;
+    }
+    .container-footer{
+        flex-direction: column;
+    }
+    .text-footer p{
+        width: 100%;
+    }
+}
+
+@media (max-width: 700px){
+    .nav li{
+        display: none;
+    }
+}
+
+
+
+
